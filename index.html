@@ -1,146 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actividad</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-wrapper blue darken-4">
-        <a href="#" class="brand-logo">Webinars</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Introducción</a></li>
-          <li><a href="badges.html">Secciones</a></li>
-          <li><a href="collapsible.html">Descripcion</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section id="secciones">
-      <section style="margin-top: 2rem">
-        <div class="row">
-          <div class="col s12 m12 l4">
-            <div class="card">
-              <div class="card-image">
-                <img src="imagenes/Deepseek.png" style="object-fit: cover" />
-                <span class="card-title">DeepSeek</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  La “censura” incorporada en la herramienta de inteligencia
-                  artificial generativa DeepSeek, que está creciendo
-                  rápidamente, podría llevar a la desinformación a filtrarse
-                  en el trabajo de los estudiantes, temen los académicos.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="#">This is a link</a>
-              </div>
-            </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".parallax");
+        M.Parallax.init(elems);
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper blue darken-4">
+          <a href="#" class="brand-logo">Webinars</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Introducción</a></li>
+            <li><a href="badges.html">Secciones</a></li>
+            <li><a href="collapsible.html">Descripcion</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero_panel">
+        <div class="parallax-container">
+          <div class="container center">
+            <h1 class="white-text">IMPACTO DE LA IA EN LA EDUCACIÓN BÁSICA</h1>
           </div>
-          <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-image">
-                <img src="imagenes/Copilot.png" style="
-                      object-fit: cover;
-                      height: 203px;
-                      justify-content: center center;
-                      align-items: center;
-                    " class="responsive-image" />
-                <span class="card-title">Copilot</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  El uso de esta herramienta beneficia a los alumnos en su día
-                  a día, y les aporta ventajas como poder resumir información
-                  más fácilmente, abordar la llamada página en blanco para
-                  poner en marcha tareas desde cero o realizar proyectos que
-                  resulten más atractivos visualmente.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="#">This is a link</a>
-              </div>
-            </div>
+          <div class="container center">
+            <h5 class="white-text">
+              ¿Cómo afecta la ia en el rendimiento académico?
+            </h5>
           </div>
-          <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-image">
-                <img src="imagenes/Chatgpt.png" style="object-fit: cover" class="responsive-image" />
-                <span class="card-title">Chatgpt</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  ChatGPT ofrece respuestas escritas con elegancia, pero que,
-                  si no se le indica con precisión, puede pasar por alto la
-                  situación planteada y dar conclusiones equivocadas. También
-                  comete errores de cálculo.
-                </p>
-              </div>
-
-              <div class="card-action">
-                <a href="#">This is a link</a>
-              </div>
-            </div>
+          <div class="parallax">
+            <img src="imagenes/iaimagen.jpg" alt="Imagen de fondo" />
           </div>
         </div>
       </section>
-    </section>
+      <section id="secciones">
+        <section style="margin-top: 2rem">
+          <div class="row">
+            <div class="col s12 m12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="imagenes/Deepseek.png" style="object-fit: cover" />
+                  <span class="card-title">DeepSeek</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    La “censura” incorporada en la herramienta de inteligencia
+                    artificial generativa DeepSeek, que está creciendo
+                    rápidamente, podría llevar a la desinformación a filtrarse
+                    en el trabajo de los estudiantes, temen los académicos.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="imagenes/Copilot.png"
+                    style="
+                      object-fit: cover;
+                      justify-content: center center;
+                      align-items: center;
+                    "
+                    class="responsive-image"
+                  />
+                  <span class="card-title">Copilot</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    El uso de esta herramienta beneficia a los alumnos en su día
+                    a día, y les aporta ventajas como poder resumir información
+                    más fácilmente, abordar la llamada página en blanco para
+                    poner en marcha tareas desde cero o realizar proyectos que
+                    resulten más atractivos visualmente.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="imagenes/Chatgpt.png"
+                    style="object-fit: cover"
+                    class="responsive-image"
+                  />
+                  <span class="card-title">Chatgpt</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    ChatGPT ofrece respuestas escritas con elegancia, pero que,
+                    si no se le indica con precisión, puede pasar por alto la
+                    situación planteada y dar conclusiones equivocadas. También
+                    comete errores de cálculo.
+                  </p>
+                </div>
 
-    
-    <section class="container" style="border: 3px solid black;">
-      <div  class=" row valign-wrapper">
-          <div class="col s-12 m6 push-m6 center-align ">
-              <h2 style="font-size: 2rem;">El impacto de la IA Generativa es inmediato y para Latinoamérica no supone barreras</h2>
-              <p style="font-size: 1rem;">Esta investigación confirma el impacto inmediato y el giro sin precedentes que la IA Generativa ya está ejerciendo en todos los aspectos de la vida, así como en la educación de América Latina. A diferencia de muchas otras olas de innovación, es poco probable que América Latina sea ‘dejada atrás’ por otras regiones y es probable que siga su propio camino de desarrollo.</p>
-              <p style="font-size: 1rem;">En términos de barreras, la ausencia de habilidades y conocimientos específicos en torno a la IA Generativa también representa una barrera significativa para las instituciones educativas de la región; la falta de conocimientos técnicos ocupa el primer lugar como impedimento.</p>
-             
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="container" style="border: 3px solid black">
+        <div class="row valign-wrapper">
+          <div class="col s-12 m6 push-m6 center-align">
+            <h2 style="font-size: 2rem">
+              El impacto de la IA Generativa es inmediato y para Latinoamérica
+              no supone barreras
+            </h2>
+            <p style="font-size: 1rem">
+              Esta investigación confirma el impacto inmediato y el giro sin
+              precedentes que la IA Generativa ya está ejerciendo en todos los
+              aspectos de la vida, así como en la educación de América Latina. A
+              diferencia de muchas otras olas de innovación, es poco probable
+              que América Latina sea ‘dejada atrás’ por otras regiones y es
+              probable que siga su propio camino de desarrollo.
+            </p>
+            <p style="font-size: 1rem">
+              En términos de barreras, la ausencia de habilidades y
+              conocimientos específicos en torno a la IA Generativa también
+              representa una barrera significativa para las instituciones
+              educativas de la región; la falta de conocimientos técnicos ocupa
+              el primer lugar como impedimento.
+            </p>
           </div>
           <div class="col s12 m6 pull-m6">
-              <picture>
-                  <source srcset="images.jpg" media="min-width=769px"/>
-                  <img style="width: 100%;object-fit: cover;" src="images.jpg" alt="Imagen section" class="responsive-img">
-              </picture>
+            <picture>
+              <source srcset="images.jpg" media="min-width=769px" />
+              <img
+                style="width: 100%; object-fit: cover"
+                src="images.jpg"
+                alt="Imagen section"
+                class="responsive-img"
+              />
+            </picture>
           </div>
-          
-      </div>        
-  </section>
- 
-  </main>
-  <footer class="page-footer blue darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">La incidencia de la IA generativa en los bajos rendimientos académicos</h5>
-          <p class="grey-text text-lighten-4">Exploramos cómo la IA generativa puede influir en los rendimientos
-            académicos de los estudiantes de plan básico, identificando tanto sus beneficios como sus desafíos.</p>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Enlaces para mas inforamación</h5>
-          <ul>
-            <li><a class="white-text text-lighten-3"
-                href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419">> Que es la IA</a></li>
-            <li><a class="white-text text-lighten-3"
-                href="https://www.unesco.org/es/digital-education/artificial-intelligence">> IA en la Educación</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
+      </section>
+    </main>
+    <footer class="page-footer blue darken-4">
       <div class="container">
-        <h5 class=" white-text center-align">© Webinars 2025</h5>
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">
+              La incidencia de la IA generativa en los bajos rendimientos
+              académicos
+            </h5>
+            <p class="grey-text text-lighten-4">
+              Exploramos cómo la IA generativa puede influir en los rendimientos
+              académicos de los estudiantes de plan básico, identificando tanto
+              sus beneficios como sus desafíos.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Enlaces para mas inforamación</h5>
+            <ul>
+              <li>
+                <a
+                  class="white-text text-lighten-3"
+                  href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419"
+                  >> Que es la IA</a
+                >
+              </li>
+              <li>
+                <a
+                  class="white-text text-lighten-3"
+                  href="https://www.unesco.org/es/digital-education/artificial-intelligence"
+                  >> IA en la Educación</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+      <div class="footer-copyright">
+        <div class="container">
+          <h5 class="white-text center-align">© Webinars 2025</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
